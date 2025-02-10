@@ -1,0 +1,22 @@
+[project]
+name = "vectorestore-in-mem"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jill Villany",email = "jillian.villany@ibm.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "langchain (>=0.3.18,<0.4.0)",
+    "pypdf (>=5.2.0,<6.0.0)",
+    "langchain-openai (>=0.3.4,<0.4.0)",
+    "langchain-community (>=0.3.16,<0.4.0)",
+    "langchainhub (>=0.1.21,<0.2.0)",
+    "faiss-cpu (>=1.10.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
